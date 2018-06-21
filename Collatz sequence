@@ -1,0 +1,16 @@
+The following iterative sequence is defined for the set of positive integers:
+
+n - n/2 (n is even)
+n - 3n + 1 (n is odd)
+
+Using this rule, and starting with n = 12, one gets the sequence:
+
+12, 6, 3, 10, 5, 16, 8, 4, 2, 1
+
+This sequence contains 10 terms.  Although not proved, it is considered that Collatz starting numbers will finish at 1.
+
+Create a program to calculate the terms when n = 19.
+
+Create a program to calculate the terms when n = 27.
+
+Create a program that calculates which starting number, under 1,000,000 produces the longest chain.
