@@ -1,0 +1,26 @@
+Consider the following Fibonacci numbers:
+
+0,1,1,2,3,5,8,13,21,34,55,…
+
+The next number is found by adding up the two numbers before it.
+
+The 2 is found by adding the two numbers before it (1+1)
+The 3 is found by adding the two numbers before it (1+2),
+And the 5 is (2+3), etc.
+
+If we consider Fibonacci number (F) 
+F0 = 0 and F1= 1 then:
+
+Fn = Fn-1 + Fn-2
+
+where:
+
+Fn is term number "n"
+Fn-1 is the previous term (n-1)
+Fn-2 is the term before that (n-2)
+
+Using C#, create a computer program that outputs the first 11 Fibonacci numbers from a function that does not use recursion. 
+
+Then ...
+
+Using C#, create a computer program that outputs the first 11 Fibonacci numbers from a function that uses recursion. 
